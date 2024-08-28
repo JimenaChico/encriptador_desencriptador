@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es-Mex">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header class="encabezado">
+        <img class="ecabezado__logo" src="/imagenes/LOGO1.png"  alt="Logo de Jimena y alura" >
+        <h1 class="encabezado__titulo">Encriptar y desencriptar con JavaScript</h1>
+        
+    </header>
+    <main>
+        <section class="frame1">
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="frame1__datos">
+                <img class="frame1__datos__advertencia"   src="/imagenes/advertencia.png" alt="Signo de advertencia">
+                <h6 class="frame1__datos__informacion">*Solo letras minusculas y sin acentos.</h6>
+            </div>  
+            <div class="botones">
+                <button class="boton-encriptar" onclick="botonEncriptar()">Encriptar</button>
+                <button class="boton-desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+            </div>              
+        </section>
+        <section class="frame2">
+            <textarea class="mensaje" cols="40" rows="25"></textarea>
+            <div>
+                <button class="boton-copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="/app.js"></script>
+    <footer class="footer">
+        <p>Desarrollado por Jimena Chico</p>
+    </footer>
+</body>
+</html>

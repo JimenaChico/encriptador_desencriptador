@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+10&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+}
+
+header{
+background-color: #ffffff;
+height: 100px;
+display: flex;
+justify-content: left;
+align-items: center;
+
+}
+
+.encabezado__titulo{
+font-family:'Jersey', sans-serif ;
+font-weight: 400;
+font-size: 32px;
+color: #0a3871;
+padding-left: 5%;
+
+}
+.encabezado__logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 2%;
+
+}
+
+body{
+    background-image: url(/imagenes/fondo.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: left;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border: none;
+    color: #0a3871;
+    margin-top: 90px;
+    text-transform: none;
+}
+
+::placeholder{ color: #0a3871;}
+    .text-area:focus{
+        outline:none ;
+
+}
+
+
+.frame1__datos{
+    display: flex;
+
+}
+.frame1__datos__advertencia{
+    width: 4%;
+}
+
+.frame1__datos__informacion{
+    color: #495057;
+    font-size: 16px;
+}
+.frame2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.mensaje{
+    background: #ffffff;
+    background-image: url("/imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 36px;
+    color: #0a3871;
+    margin-left: 58px;
+    margin-top: 60px;
+    padding-left: 20px ;
+    position: absolute;
+    background-size: auto;
+    background-position: center;
+
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.boton-encriptar{
+    background-color: #0a3871;
+    border: 1 px solid #0a3871;
+    border-radius: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.boton-desencriptar{
+    background: #d8dfe8;
+    border: 1 px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+
+.boton-copiar {
+    border: 1 px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-top: 250px;
+    width: 326px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    padding-left: 20px ;
+    background-size: auto;
+    margin-left: 58px;
+}
+
+.footer{
+    color:#f7f2f2;
+    background-color:black;
+    margin-top: 150px;
+    padding: 10px;
+    text-align: center;
+    font-family:'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/*Responsive desing*/
+
+@media (max-width: 57.7em) {
+
+    .encabezado{
+        display: flex;
+        flex-direction: row;
+    }
+    
+}
+
+
+
